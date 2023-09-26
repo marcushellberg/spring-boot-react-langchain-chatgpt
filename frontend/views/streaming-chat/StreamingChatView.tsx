@@ -28,7 +28,7 @@ export default function StreamingChatView() {
 
         let first = true;
         ChatService.chatStream(message).onNext(chunk => {
-            if (first) {
+            if (first && chunk) {
                 addMessage({
                     text: chunk,
                     userName: 'Assistant'
