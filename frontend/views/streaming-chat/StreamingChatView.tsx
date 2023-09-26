@@ -13,10 +13,8 @@ export default function StreamingChatView() {
     function appendToLastMessage(chunk: string) {
         setMessages(messages => {
             const lastMessage = messages[messages.length - 1];
-            return [...messages.slice(0, -1), {
-                text: lastMessage.text + chunk,
-                userName: lastMessage.userName
-            }];
+            lastMessage.text += chunk;
+            return [...messages.slice(0, -1), lastMessage];
         });
     }
 
