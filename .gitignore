@@ -1,5 +1,5 @@
 target/
-
+.idea
 # The following files are generated/updated by Hilla
 node_modules/
 frontend/generated/

@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58a9615-22ea-4ebd-b3b7-ff4616eb6165" name="Changes" comment="">
+    <list default="true" id="b58a9615-22ea-4ebd-b3b7-ff4616eb6165" name="Changes" comment="code">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/routes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/helloworld/HelloWorldView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/chat/ChatView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/services/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/services/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/about/AboutView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/streaming-chat/StreamingChatView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/chat/ChatView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/chat/ChatView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/services/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/services/ChatService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "ts.external.directory.path": "/Users/mhellber/Desktop/spring-boot-react-langchain-chatgpt/node_modules/typescript/lib",
+    "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,11 +85,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695671096669</updated>
-      <workItem from="1695671097763" duration="8449000" />
+      <workItem from="1695671097763" duration="10522000" />
     </task>
+    <task id="LOCAL-00001" summary="code">
+      <option name="closed" value="true" />
+      <created>1695684083072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695684083072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code" />
+    <option name="LAST_COMMIT_MESSAGE" value="code" />
   </component>
 </project>
