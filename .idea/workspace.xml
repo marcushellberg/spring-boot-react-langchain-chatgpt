@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b58a9615-22ea-4ebd-b3b7-ff4616eb6165" name="Changes" comment="code">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/about/AboutView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/streaming-chat/StreamingChatView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/chat/ChatView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/chat/ChatView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/services/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/services/ChatService.java" afterDir="false" />
+    <list default="true" id="b58a9615-22ea-4ebd-b3b7-ff4616eb6165" name="Changes" comment="add streaming and non-streamign example">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695671096669</updated>
-      <workItem from="1695671097763" duration="10522000" />
+      <workItem from="1695671097763" duration="10703000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <option name="closed" value="true" />
@@ -95,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695684083072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add streaming and non-streamign example">
+      <option name="closed" value="true" />
+      <created>1695743315489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695743315489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code" />
-    <option name="LAST_COMMIT_MESSAGE" value="code" />
+    <MESSAGE value="add streaming and non-streamign example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add streaming and non-streamign example" />
   </component>
 </project>
