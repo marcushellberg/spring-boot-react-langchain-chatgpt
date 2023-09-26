@@ -9,6 +9,7 @@ export default function StreamingChatView() {
     function addMessage(message: MessageListItem) {
         setMessages(messages => [...messages, message]);
     }
+
     function appendToLastMessage(chunk: string) {
         setMessages(messages => {
             const lastMessage = messages[messages.length - 1];
