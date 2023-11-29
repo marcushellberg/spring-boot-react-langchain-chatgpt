@@ -58,7 +58,7 @@ public class ChatService {
 
         streamingAssistant.chat(message)
                 .onNext(sink::tryEmitNext)
-                .onComplete(sink::tryEmitComplete)
+                .onComplete(c -> sink.tryEmitComplete())
                 .onError(sink::tryEmitError)
                 .start();
 
